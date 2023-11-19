@@ -11,7 +11,6 @@ export default function LandingPage() {
     setEstiloAtualizado(!estiloAtualizado);
   };
 
-
   return (
     <div
       className={estiloAtualizado ? modoClaro : modoEscuro}

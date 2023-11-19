@@ -50,4 +50,4 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu na
 ### `deploy`
 
 O deploy da aplicação foi realizado na plataforma [Vercel](https://vercel.com/).
-E poderá ser acompanhado através do seguinte link: ().
+E poderá ser acompanhado através do seguinte link: (https://barbearia-sage-nu.vercel.app/).
