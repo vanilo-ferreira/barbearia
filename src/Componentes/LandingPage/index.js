@@ -1,16 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 
 export default function LandingPage() {
+  const modoClaro = "modo-claro";
+  const modoEscuro = "modo-escuro";
+
+  const [estiloAtualizado, setEstiloAtualizado] = useState(true);
+
+  const alterarCor = () => {
+    setEstiloAtualizado(!estiloAtualizado);
+  };
+
+
   return (
-    <div className="modo-escuro">
+    //<div className="modo-escuro">
+    <div
+      className={estiloAtualizado ? modoClaro : modoEscuro}
+    >
       <header className="topo limitar-secao">
-        <img className="logo logo-escuro" src="./assets/barbearia-logo.png" alt="Logomarca da Barbearia" title="Barber shop logo" />
-        <button className="button-topo button-escuro">
+        <img className={estiloAtualizado ? "logo" : "logo logo-escuro"} src="./assets/barbearia-logo.png" alt="Logomarca da Barbearia" title="Barber shop logo" />
+        <button className={estiloAtualizado ? "button-topo" : "button-topo texto-button-modo-escuro"}
+          onClick={alterarCor}>
           <span>
-            <img src="./assets/sun.png" alt="Botão para alterar os modos da página entre dark e light" title="Botão dark e light" />
+            <img
+              src={estiloAtualizado ? "./assets/moon.png" : "./assets/sun.png"}
+              alt="Botão para alterar os modos da página entre dark e light"
+              title="Botão dark e light" />
           </span>
-          Light
+          {estiloAtualizado ? "Dark" : "Light"}
         </button>
       </header>
       <main>
