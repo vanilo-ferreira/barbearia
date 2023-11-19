@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
 }
 
 .button-topo {
@@ -53,10 +54,12 @@
   font-size: 40px;
 }
 
+.paragrafos {
+  margin: 20px;
+}
 .paragrafo-destaque {
   font-weight: bold;
   font-size: 18px;
-  margin: 20px;
 }
 
 .paragrafo-assinatura {
