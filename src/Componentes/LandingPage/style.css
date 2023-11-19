@@ -1,6 +1,6 @@
 // MODO CLARO
 .modo-claro {
-  background-color: blue;
+  background-color: #fff;
   color: #000;
 }
 
@@ -22,7 +22,7 @@
   border-radius: 50px;
   width: 100px;
   border: solid #b8a087 2px;
-  background-color: #fff;
+  background-color: transparent;
   font-weight: bold;
   padding: 5px;
 }
@@ -67,4 +67,22 @@
   font-size: 40px;
   margin-top: 30px;
   color: #c5aa8c;
+}
+
+// MODO DARK
+header {
+  
+}
+
+.modo-escuro {
+  background-color: #252323;
+  color: #fff;
+}
+
+.button-escuro {
+  color: #fff
+}
+
+.logo-escuro {
+  filter: contrast(0);
 }

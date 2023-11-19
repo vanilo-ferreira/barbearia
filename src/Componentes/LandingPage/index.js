@@ -3,14 +3,14 @@ import "./style.css";
 
 export default function LandingPage() {
   return (
-    <div>
-      <header className="topo modo-claro limitar-secao">
-        <img className="logo" src="./assets/barbearia-logo.png" alt="Logomarca da Barbearia" title="Barber shop logo" />
-        <button className="button-topo">
+    <div className="modo-escuro">
+      <header className="topo limitar-secao">
+        <img className="logo logo-escuro" src="./assets/barbearia-logo.png" alt="Logomarca da Barbearia" title="Barber shop logo" />
+        <button className="button-topo button-escuro">
           <span>
-            <img src="./assets/moon.png" alt="Botão para alterar os modos da página entre dark e light" title="Botão dark e light" />
+            <img src="./assets/sun.png" alt="Botão para alterar os modos da página entre dark e light" title="Botão dark e light" />
           </span>
-          Dark
+          Light
         </button>
       </header>
       <main>
