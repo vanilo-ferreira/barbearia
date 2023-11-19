@@ -13,7 +13,6 @@ export default function LandingPage() {
 
 
   return (
-    //<div className="modo-escuro">
     <div
       className={estiloAtualizado ? modoClaro : modoEscuro}
     >

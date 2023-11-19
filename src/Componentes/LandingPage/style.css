@@ -71,12 +71,12 @@
 
 // MODO DARK
 header {
-  
 }
 
 .modo-escuro {
   background-color: #252323;
   color: #fff;
+  height: 100vh;
 }
 
 .texto-button-modo-escuro {
